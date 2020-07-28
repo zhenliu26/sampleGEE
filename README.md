@@ -1,4 +1,4 @@
-# Hand Label tool for Google Earth Engine
+# Hand Label Tool for Google Earth Engine
 ## Preparation
 
 There are several required libraries before the start:
