@@ -27,7 +27,7 @@ sample = ee.FeatureCollection('users/BAI_debug/sampleMidWest')
 saveAddress = "data\source_test.csv"
 ```
 
-### Step 2: Hand label
+### Step 2: data preparation
 
 Change date name, ID name in both csv and GEE, and the source name
 ```python
@@ -53,4 +53,10 @@ Because the imagecollection can't be stored in Google Earth Engine Asset, so tha
 # data processing
 finalResult = ee.ImageCollection(image)
 ```
-[![INSERT YOUR GRAPHIC HERE](https://raw.githubusercontent.com/zhenliu26/Images/master/sampleUI.jpg)]()
+### Step 3: hand label
+
+When you run the code, the interface will be shown like below.
+[![UI](https://raw.githubusercontent.com/zhenliu26/Images/master/sampleUI.jpg)]()
+
+You can select the date and feature. The layers controller will help to change the background layer. When you are certain about the class of the target point, change the class and **Click the Enter**. The record will be updated automatically.
+
