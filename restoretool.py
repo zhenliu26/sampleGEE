@@ -4,10 +4,10 @@ import pandas as pd
 
 
 ee.Initialize()
-
+# customize: the property you need, the feature collection of sample points, and save address
 outProperty = ['idNum','ran','startDate']
 sample = ee.FeatureCollection('users/BAI_debug/sampleMidWest')
-saveAddress = "data\source_test.csv"
+saveAddress = "source_test.csv"
 
 
 # get the property of each feature
