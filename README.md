@@ -6,12 +6,14 @@ There are several required libraries before the start:
 - folium
 - PyQt5
 - pandas
+- PyQtWebEngine
 > Those liberary can be installed by pip
 ```shell
 $ pip install earthengine-api --upgrade
 $ pip install folium
 $ pip install PyQt5
 $ pip install pandas
+$ pip install PyQtWebEngine
 ```
 ## Features
 - **Inspect the target on Google Earth Engine and save the records locally**
