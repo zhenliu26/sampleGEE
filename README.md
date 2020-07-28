@@ -13,6 +13,11 @@ $ pip install folium
 $ pip install PyQt5
 $ pip install pandas
 ```
+## Features
+- **Inspect the target on Google Earth Engine and save the records locally**
+- **Records in pandas are easy to operate**
+- **Easy to share the work**
+
 ## WorkFlow
 
 > Tips: Don't forget to authorize the Google Earth Engine account by ee.Authenticate().
@@ -59,4 +64,6 @@ When you run the code, the interface will be shown like below.
 [![UI](https://raw.githubusercontent.com/zhenliu26/Images/master/sampleUI.jpg)]()
 
 You can select the date and feature. The layers controller will help to change the background layer. When you are certain about the class of the target point, change the class and **Click the Enter**. The record will be updated automatically.
+
+### Step 4: upload back to Google Earth Engine
 
