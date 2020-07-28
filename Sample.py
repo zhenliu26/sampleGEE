@@ -16,14 +16,15 @@ IDName = 'idNum'
 # ID property name in GEE
 IDGEE = 'idString'
 # date property name in GEE
-dateGEE = 'startDate'
-sourceName = 'data/source_test.csv'
+dateGEE = dateName
+sourceName = 'source_test.csv'
 #  the dataframe to store the sample data. (it will be updated everytime you click enter)
 df = pd.read_csv(sourceName)
+# sample point feature collection
 sample = ee.FeatureCollection('users/BAI_debug/sampleMidWest')
 classCode = ['NotAssessed','water','non-water']
 
-# data processing
+# data processing (prepare the image to show)
 S2 = ee.ImageCollection("COPERNICUS/S2")
 studyArea = ee.Geometry.Polygon(
     [[[-94.37600552554129, 43.810559961893695],
