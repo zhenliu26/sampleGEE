@@ -53,4 +53,4 @@ Because the imagecollection can't be stored in Google Earth Engine Asset, so tha
 # data processing
 finalResult = ee.ImageCollection(image)
 ```
-[![INSERT YOUR GRAPHIC HERE](http://i.imgur.com/dt8AUb6.png)]()
+[![INSERT YOUR GRAPHIC HERE](https://raw.githubusercontent.com/zhenliu26/Images/master/sampleUI.jpg)]()
