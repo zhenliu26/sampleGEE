@@ -6,6 +6,7 @@ There are several required libraries before the start:
 - folium
 - PyQt5
 - pandas
+> Those liberary can be installed by pip
 ```shell
 $ pip install earthengine-api --upgrade
 $ pip install folium
