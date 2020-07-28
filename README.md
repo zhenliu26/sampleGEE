@@ -48,8 +48,9 @@ sample = ee.FeatureCollection('users/BAI_debug/sampleMidWest')
 classCode = ['NotAssessed','water','non-water']
 ```
 
-Because the imagecollection can't be stored in Google Earth Engine, so that The final result (which is the imagecollection in Google Earth Engine) should be calculated in the data preparation module.
+Because the imagecollection can't be stored in Google Earth Engine Asset, so that the final result (which is the imagecollection in Google Earth Engine) should be calculated in the data preparation module.
 ```python
 # data processing
 finalResult = ee.ImageCollection(image)
 ```
+[![INSERT YOUR GRAPHIC HERE](http://i.imgur.com/dt8AUb6.png)]()
