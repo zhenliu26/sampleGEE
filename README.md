@@ -8,13 +8,7 @@ There are several required libraries before the start:
 - pandas
 ```shell
 $ pip install earthengine-api --upgrade
-```
-```shell
 $ pip install folium
-```
-```shell
 $ pip install PyQt5
-```
-```shell
-$  pip install pandas
+$ pip install pandas
 ```
